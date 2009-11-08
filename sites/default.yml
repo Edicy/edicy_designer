@@ -1,0 +1,197 @@
+# 
+# This file contains both the data and settings that will be displayed on pages generated with Edicy Designer.
+#
+
+# General configuration options that specify how Edicy Designer works
+options:
+  # Set to "true" if you want the {{ editmode }} variable to return "true" in your templates. Set to "false" if you
+  # don't.
+  editmode: false
+  
+  # Choose which design should be used to render pages. This value maps directly to the directories under "designs/"
+  # directory. In the demo package, you can choose between "milano" and "daejeon".
+  design: daejeon
+
+# General site data, that is accessible through {{ site }} variable.
+site:
+  
+  # Site name, accessible throgugh {{ site.name }} variable.
+  name: Door Stops
+  
+  # Site header, accessible through {{ site.header }} and it may contain HTML content to insert logo onto page headers.
+  header: Door Stops inc.
+  
+  # Site author, accessible through {{ site.author }} variable.
+  author: John Doe
+  
+  # General site keywords, accessible through {{ site.keywords }} variable. Useful to add some general keywords into
+  # HTML document header.
+  keywords: "Door, Door stop"
+  
+  # Site description that is accessible through {{ site.description }} variable.
+  description: Door stops
+  
+  # Site copyright information that is accessible through {{ site.copyright }} variable.
+  copyright: No copyright
+  
+  # Set to "true" if you want the {{ site.search_enabled }} variable to return "true" in your templates. Set to "false"
+  # if you don't.
+  search_enabled: false
+  
+  # Analytics code that will be returned by using {{ site.analytics }} variable. This is used to embed Google Analytics
+  # (or any other webstats tracker code) code to pages.
+  analytics: "<!-- Analytics code goes here -->"
+
+# Defines list of languages that are available on site. Each language in this configuration file is represented as a
+# title and code value pairs.
+languages:
+- title: ENG
+  code: en
+- title: FRA
+  code: fr
+
+# Defines people associated with your site. Notice that people are mapped by a key ("john_smith" in this case). It will
+# be used to load person data in other data entities such as blog articles.
+people:
+  john_smith:
+    firstname: John
+    lastname: Smith
+    email: support@edicy.com
+  
+# List of pages that are available on site. Each page is represented as a list of value pairs:
+#
+#   * title:         Title of the page, which is accessible through {{ page.title }} variable in your templates
+#   * path:          Path of the page, defines the url of page. Paths also define the hierarchy of the pages. For
+#                    example, "foo/bar" is a sub-page of the page with path "foo".
+#   * language_code: Two-character code of language, these will be associated with "code" value in "languages" section.
+#                    It is also accessible through {{ page.language_code }} variable.
+#   * layout:        Filename of the layout that should be used to render this page. This maps directly to the layout
+#                    filenames in "designs/" folder, such as "designs/<options.design>/<page.layout>.tpl"
+#   * contents:      Optional. Override or add extra contents for the given page. See "contents" section below in this
+#                    configuration file for more information.
+#   * content_type:  Optional. Set to "blog" if you want to use this page as a blog page.
+#
+pages:
+- title: Home page
+  path: ""
+  language_code: en
+  layout: page_front
+  contents:
+    body: Welcome to Edicy - this is default text showing you how you can add content to your site.  Feel free to <b>delete</b> this text and enter your own to introduce yourself or your company.<br/><br/>You can change the look of your site by clicking the Design button below and you can modify settings such as your web address or language by going to the My Account area.<br/><br/>Edicy is fully customizable so you can add, delete, modify any text or pictures as you desire.
+- title: Blog
+  path: blog
+  language_code: en
+  layout: blog_front
+  content_type: blog
+- title: Products
+  path: products
+  layout: page_default
+  contents:
+    body: You can use this page to describe your products in more detail and post pictures about your different products and services.<br/><br/>If you don't need a Products page you can rename the page by clicking the Properties button below or you can delete it in the My Account section.
+- title: Contact
+  path: contact
+  language_code: en
+  layout: page_default
+  contents:
+    body: "Here you can write your company contacts. As you can see, the people in your comany even deserve special pages."
+- title: People
+  path: contact/people
+  language_code: en
+  layout: page_default
+- title: Milli Vanilli
+  path: contact/people/john_smith
+  language_code: en
+  layout: page_default
+- title: Location
+  path: contact/map
+  language_code: en
+  layout: page_default
+
+# Values of content key-value pairs will be replaced in {% content name="content_name" %} tags in your page templates.
+# Notice you can use these shared contents in general or overwrite them under page definitions.
+#
+# If you need to add a new content tag into your page template (for example {% content name="my_sidebar" %}), declare
+# another content data here:
+#
+#   my_sidebar: My sidebar contents
+#
+contents:
+  body: "Welcome to Edicy - this is default text showing you how you can add content to your site. Feel free to <b>delete</b> this text and enter your own to introduce yourself or your company.<br/><br/>You can change the look of your site by clicking the Design button below and you can modify settings such as your web address or language by going to the My Account area.<br/><br/>Edicy is fully customizable so you can add, delete, modify any text or pictures as you desire."
+  footer: "Add a footer - it can include your address and other contact info"
+
+# List of articles that are available in your blogs. Each article must be associated with a blog page by the page path.
+# Each article is represented as a key-value pairs:
+# 
+#   * title:      Article title that is accessible through {{ article.title }} variable.
+#   * excerpt:    Article excerpt, accessible via {{ article.excerpt }} variable.
+#   * body:       Article body, accessible via {{ article.body }} variable.
+#   * author:     Code of the person specified in "people" section above. Person object is available on blog and blog
+#                 article template through {{ article.author }}
+#   * page:       Path of the page by which the page will be looked up from "pages" section.
+#   * path:       Path of the article. Full path to the article will be composed of page.path and article.path. For
+#                 example if page path is "blog" and article path is "my-article" then article path is "blog/my_article"
+#   * created_at: Timestamp for article creation time. Is accessible thorugh {{ article.created_at }} variable
+#   * updated_at: Timestamp for article update time. Is accessible through {{ article.updated_at }} variable
+#   * layout:     Filename of the layout that should be used to render this article. This maps directly to the layout
+#                 filenames in "designs/" folder, such as "designs/<options.design>/<article.layout>.tpl"
+#   * comments:   List of comments, where each comment is a key-value pair of author, author_email, body and created_at
+#
+articles:
+- title: We are so kind that we add another article here for free
+  excerpt: "Here you can post news about your company or blog about any other subject that comes to mind. This post can be deleted in the <b>News & Blog</b> section below by clicking the <b>Delete</b> link for this post."
+  body: "Here you'll add the content of your blog post, you can also add picture, tables and all sorts of other media into your posts."
+  author: john_smith
+  page: blog
+  path: another-website
+  created_at: 2008-10-13 00:00:00 +03:00
+  updated_at: 2008-10-13 00:00:00 +03:00
+  layout: blog_article
+  comments:
+  - author: Holy Shmoly
+    author_email: support@edicy.com  
+    body: This cannot be true
+    created_at: 2008-10-13 00:00:00 +03:00
+  - author: Un Known
+    author_email: support@edicy.com
+    body: Thank you for so intriguing and helpful article!
+    created_at: 2008-10-13 00:00:00 +03:00
+- title: This is a sample blog post describing your latest news
+  excerpt: "Here you can post news about your company or blog about any other subject that comes to mind. This post can be deleted in the <b>News & Blog</b> section below by clicking the <b>Delete</b> link for this post."
+  body: "Here you'll add the content of your blog post, you can also add picture, tables and all sorts of other media into your posts."
+  author: john_smith
+  page: blog
+  path: new-website-has-been-launched
+  created_at: 2008-10-11 00:00:00 +03:00
+  updated_at: 2008-10-11 00:00:00 +03:00
+  layout: blog_article
+
+# List of localized strings that will be filtered by using the "lc" filter:
+#
+#   {{ "latest_news" | lc }}
+#   #=> Latest news
+#
+i18n:
+  comment_author_blank: Name is empty!
+  latest_news: Latest news
+  name: Name
+  comment_body_blank: Comment is empty!
+  search: Search
+  comments: Comments
+  footer_login_link: Edicy. Everyone can create a website.
+  submit: Submit
+  add_a_comment: Add a comment
+  author: Author
+  search_close: Close
+  write_first_comment: Write first comment
+  submit_comment: Submit comment
+  comments_for_count: Comments
+  no_comments: No comments
+  latest_article: Latest article
+  news: News
+  older_news: Older news
+  read_more: Read more
+  search_noresults: Your search did not match any documents
+  comment: Comment
+  email_wont_be_published: E-mail won't be published
+  comment_email_blank: E-mail is empty!
+  email: E-mail

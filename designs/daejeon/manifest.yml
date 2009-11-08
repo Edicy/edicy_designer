@@ -1,0 +1,57 @@
+--- 
+author: Priit Haamer
+layouts: 
+  blog_article.tpl: 
+    component: false
+    title: Blog Article
+    layout_name: blog_article
+    content_type: blog_article
+  Langmenu.tpl: 
+    component: true
+    title: Langmenu
+    layout_name: ""
+    content_type: component
+  Mainmenu.tpl:
+    component: true
+    title: Mainmenu
+    layout_name: ""
+    content_type: component
+  Search.tpl:
+    component: true
+    title: Search
+    layout_name: ""
+    content_type: component
+  page_default.tpl:
+    component: false
+    title: Common page
+    layout_name: page_default
+    content_type: page
+  blog_front.tpl:
+    component: false
+    title: "Blog & News"
+    layout_name: blog_front
+    content_type: blog
+  SiteHeader.tpl:
+    component: true
+    title: SiteHeader
+    layout_name: ""
+    content_type: component
+  page_front.tpl:
+    component: false
+    title: Front page
+    layout_name: page_front
+    content_type: page
+  Submenu.tpl:
+    component: true
+    title: Submenu
+    layout_name: ""
+    content_type: component
+  News.tpl: 
+    component: true
+    title: News
+    layout_name: ""
+    content_type: component
+name: Daejeon
+preview_small_src: http://static.edicy.com/designs/daejeon/daejeon_small.png
+preview_medium_src: http://static.edicy.com/designs/daejeon/daejeon_medium.png
+description: Daejeon

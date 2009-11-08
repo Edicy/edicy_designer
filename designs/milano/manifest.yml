@@ -1,0 +1,52 @@
+--- 
+author: Tajo Oja
+layouts: 
+  Mainmenu: 
+    :component: true
+    :title: Mainmenu
+    :layout_name: ""
+    :content_type: component
+  page_default.tpl: 
+    :component: false
+    :title: Common page
+    :layout_name: page_default
+    :content_type: page
+  News.tpl: 
+    :component: true
+    :title: News
+    :layout_name: ""
+    :content_type: component
+  page_front.tpl: 
+    :component: false
+    :title: Front page
+    :layout_name: page_front
+    :content_type: page
+  SiteHeader.tpl: 
+    :component: true
+    :title: SiteHeader
+    :layout_name: ""
+    :content_type: component
+  blog_article.tpl: 
+    :component: false
+    :title: Blog article
+    :layout_name: blog_article
+    :content_type: blog_article
+  Langmenu.tpl: 
+    :component: true
+    :title: Langmenu
+    :layout_name: ""
+    :content_type: component
+  Sidebar.tpl: 
+    :component: true
+    :title: Sidebar
+    :layout_name: ""
+    :content_type: component
+  blog_front.tpl: 
+    :component: false
+    :title: Blog
+    :layout_name: blog_front
+    :content_type: blog
+name: Milano
+preview_small_src: http://static.edicy.com/designs/milano/milano_small.png
+preview_medium_src: http://static.edicy.com/designs/milano/milano_medium.png
+description: Milano

@@ -1,0 +1,16 @@
+$:.unshift(File.expand_path(File.dirname(__FILE__)) + '/drops')
+
+require 'article_drop'
+require 'asset_drop'
+require 'blog_drop'
+require 'comment_drop'
+require 'element_drop'
+require 'form_drop'
+require 'form_field_drop'
+require 'language_drop'
+require 'media_set_drop'
+require 'menu_item_drop'
+require 'page_drop'
+require 'person_drop'
+require 'site_drop'
+require 'text_partial_drop'

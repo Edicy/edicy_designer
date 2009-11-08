@@ -1,0 +1,430 @@
+/* Reset */
+
+html {
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* General HTML */
+html {
+  /*#d00d0e*/
+  border-top: 8px solid #222;
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #08c;
+}
+
+h1 {
+  line-height: 1;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h2 a {
+  text-decoration: none;
+}
+
+h2 a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+a {
+  color: #08c;
+}
+
+a img {
+  border: none;
+}
+
+pre {
+  white-space: normal;
+}
+
+/* Generic container */
+div#container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 960px;
+  min-width: 960px;
+  padding-bottom: 40px;
+}
+
+div.clearer {
+  clear: both;
+  font-size: 1px;
+  height: 1px;
+  line-height: 1px;
+}
+
+/* Header related items */
+div#header {
+  margin-top: 20px;
+}
+
+div#logo {
+  font-weight: bold;
+  font-size: 32px;
+  color: #222;
+  margin-top: 10px;
+  display: inline;
+  float: left;
+  letter-spacing: -2px;
+  width: 40%;
+}
+
+div#menu {
+/*  border: 1px solid red;*/
+/*  text-align: right;*/
+/*  clear: both;*/
+}
+
+/* Navigation menu related items */
+#langmenu_cont {
+  height: 26px;
+}
+ul#mainmenu, ul#langmenu, ul#submenu {
+  list-style-image: none;
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul#langmenu li {
+  float: left;
+}
+
+ul#mainmenu li a, ul#langmenu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+ul#mainmenu {
+  float: right;
+  margin: 19px 0 0 0;
+  width: 60%;
+  text-align: right;
+}
+
+ul#mainmenu li {
+  margin: 0 0 0 20px;
+  height: 25px;
+  display: inline;
+}
+
+
+ul#mainmenu li a {
+  color: #333;
+  font-size: 14px;
+  vertical-align: baseline;
+  display: inline-block;
+  border-bottom: 4px solid white;
+  background: url('../images/dot.gif') repeat-x left bottom;
+}
+
+ul#mainmenu li.active a {
+  border-bottom: 4px solid #d00d0e;
+}
+
+ul#mainmenu li a:hover {
+  border-bottom: 4px solid #bbb;
+}
+
+ul#langmenu {
+  float: right;
+  clear: both;
+  margin-top: 5px;
+  display: block;
+}
+
+ul#langmenu li {
+  padding: 0 0 0 10px;
+}
+
+ul#langmenu li a {
+  color: #999;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+ul#submenu li {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+ul#submenu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul#submenu li a.active {
+  font-weight: bold;
+}
+
+ul#submenu li a:hover {
+  color: #08c;
+}
+
+ul#langmenu li a.active {
+  font-weight: bold;
+}
+
+/* Body related items */
+div#body {
+  margin-top: 40px;
+  line-height: 20px;
+}
+
+div#left_column {
+  float: left;
+}
+
+div#right_column {
+  float: right;
+}
+
+ul#news_list {
+  list-style-image: none;
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul#news_list li {
+  margin-bottom: 10px;
+}
+
+ul#news_list li a {
+  text-decoration: none;
+}
+
+.news_actions {
+  font-size: 12px;
+  color: #08c;
+  background-color: #eee;
+  padding: 5px;
+}
+
+.news_actions a {
+  text-decoration: none;
+}
+
+.light {
+  color: #999;
+}
+
+.em_box, .comments_area {
+   background-color: #eaf7ff;
+   padding: 10px;
+   margin: 0 -10px 0 -10px;
+   border-top: 1px solid #cde9fe;
+   border-bottom: 1px solid #cde9fe;
+  position: relative;
+}
+
+.em_box h1, .em_box h2, .em_box h3 {
+  margin-top: 5px;
+}
+
+.box_700 {
+  width: 700px;
+}
+
+.box_600 {
+  width: 600px;
+}
+
+.box_300 {
+  width: 300px;
+}
+
+.box_200 {
+  width: 200px;
+}
+
+#onpage_search {
+  -webkit-appearance: searchfield;
+}
+
+/* Blog related items */
+.blog_date {
+  color: #999;
+}
+
+.comments_area {
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.comment_area {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.comment_author {
+  font-weight: bold;
+}
+
+.comment {
+  width: 510px;
+  float: right;
+}
+
+.comment_author, .comment_form label {
+  width: 150px;
+  float: left;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.comment_form {
+  margin-top: 40px;
+}
+
+.comment_form label {
+  padding-top: 2px;
+  font-size: 12px;
+}
+
+.comment_form .textbox, .comment_form .textarea {
+  width: 300px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border: 1px solid #999;
+  background-color: #fff;
+  padding: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+.comment_form .textbox {
+  width: 200px;
+}
+
+.comment_form .textarea {
+  width: 400px;
+  height: 100px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.comment_form .submit {
+  margin-left: 170px;
+}
+
+div.comment_form_errors {
+  font-size: 12px;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+div.comment_form_errors ul li {
+  font-weight: bold;
+}
+
+.blogspacing {
+  height: 5px;
+}
+
+.readmore {
+  font-size: 12px;
+}
+
+.excerpt {
+  margin: 20px 0;
+}
+
+/* Form related items */
+.form_field_size_small { width: 25% }
+.form_field_size_medium { width: 50% }
+.form_field_size_large { width: 100% }
+
+.form_field { margin-top: 15px; }
+.form_field label { display: block; font-weight: bold; }
+.form_field input, .form_field textarea {
+  font-size: 14px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 1px solid #999;
+  background-color: #fff;
+  padding: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.form_field input.form_field_file { border: none; }
+
+/* Footer */
+div#footer {
+  font-size: 12px;
+  color: #666;
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+div.footer_content {
+  float: left;
+  width: 600px;
+}
+
+div#edicy {
+  float: right;
+}
+
+div#edicy a {
+  color: #999;
+  text-decoration: none;
+}
+
+div#edicy a:hover {
+  color: #08c;
+}
+
+
+
+/* forms */
+.form_area {
+  margin: 20px 0;
+}
+.form_field {
+  margin: 0 0 5px;
+}
+.form_field label {
+  display: block;
+  font-weight: bold;
+}
+.form_error {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+  border: 1px dotted red;
+  padding: 5px;
+}
+.form_field_error {
+  color: red;
+  font-size: 10px;
+  line-height: 14px;
+}
+.form_notice {
+  color: green;
+  border: 1px dotted green;
+  padding: 5px;
+}

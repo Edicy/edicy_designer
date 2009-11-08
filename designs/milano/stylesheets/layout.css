@@ -1,0 +1,423 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font: normal 13px/18px Arial, Helvetica, sans-serif;
+  min-width: 960px;
+
+}
+pre {
+white-space: normal;
+}
+.clearer {
+  clear: both;
+  font-size: 1px;
+  line-height: 1px;
+  height: 1px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,h2,h3 {
+  padding: 20px 0 20px;
+  margin: 0;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: bold;
+}
+
+
+h2 {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  line-height: 24px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+
+#wrap {
+  width: 644px;
+  padding: 10px 0 100px;
+  text-align: left;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* menus */
+
+  #mainmenu, #langmenu, #submenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 644px;
+    overflow: hidden;
+   }
+  
+  #langmenu ul {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 644px;
+    overflow: hidden;
+  }
+
+ 
+  
+  #langmenu li, #mainmenu li, #submenu li {
+    display: inline;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0 8px;
+  }
+  #mainmenu {
+    margin-top: 10px;
+  } 
+  #submenu {
+    margin-top: 10px;
+    background:  #440300;
+    padding: 5px 5px; 
+  }
+  
+
+/* header */
+
+  #header {
+    padding-bottom: 12px;
+    padding-top: 30px;
+  }
+  
+  #header-table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border: none;
+  }
+  
+  #header-table td {
+    padding: 20px 10px;
+    vertical-align: middle;
+    border: none;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  #header-table .title {
+    font-size: 40px;
+    line-height: 40px;
+    padding: 10px 20px;
+    width: 10%;
+    
+  }
+  
+  
+
+/* container */
+
+  #container {
+    min-height: 640px;
+  }
+  
+  * html #container {
+    height: 640px;
+  }
+  
+/* content */
+
+  #content {
+    float: left;
+    width: 384px;
+    min-height: 10px;
+    padding: 35px 30px 35px 30px;
+  }
+  
+  * html #content {
+    height: 10px;
+  }
+  #content-inner {
+    width: 384px;
+    overflow: hidden;
+  padding-bottom: 1px;
+  }
+
+  
+/* blog */
+
+  .blog {
+    padding-bottom: 25px;
+  }
+  .blog-date {
+    float: left;
+    width: 35px;
+    padding-right: 10px;
+    text-align: center;
+    min-height: 10px;
+    padding-top: 8px;
+  }
+  
+  * html .blog-date {
+    height: 10px;
+  }
+  
+  .blog-date span {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .blog-inner {
+    margin-left: 65px;
+  }
+  
+  .blog-inner h1 {
+    padding: 5px 0 0;
+  }
+  
+  .blog .tags, .blog-information {
+    font-size: 11px;
+  }
+  
+  .blog-content {
+    padding: 10px 0 5px; 
+  }
+  
+/* comment */
+  .comment {
+    padding-bottom: 25px;
+  }
+  .comment-count {
+    float: left;
+    width: 35px;
+    padding-right: 10px;
+    text-align: center;
+    min-height: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+  
+  * html .comment-count {
+    height: 10px;
+  }
+  
+  .comment-inner {
+    margin-left: 65px;
+  }
+  
+  .comment-information {
+    font-size: 11px;
+  }
+  
+  .comments form {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+  }
+  
+  .comments form table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+  }
+  
+  .comments form td {
+    padding: 4px 5px;
+    vertical-align: top;
+  }
+  
+  .comments form .first {
+    text-align: right;
+  }
+  
+  .comments .submit {
+    border: none;
+    background: transparent;
+    font: normal 13px/16px Arial, Helvetica, sans-serif;
+  }
+  .comments .textbox {
+    width: 320px;
+    font: normal 13px/16px Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 3px 2px;
+  }
+  
+  .comments textarea.textbox {
+    height: 142px;
+  }
+  
+  
+/* sidebar */
+
+  #sidebar {
+    float: left;
+    width: 170px;
+    margin-right: -3px;
+    min-height: 10px;
+    overflow-x: hidden;
+  }
+  
+  * html #sidebar {
+    height: 10px;
+  }
+  
+  #sidebar-top {
+    padding: 30px 15px 15px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+  
+  .sidebar-header {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 10px 15px;
+    margin-top: 10px;
+  }
+  
+  .sidebar-inner {
+    padding: 10px 15px 10px;
+  }
+  
+  .rss {
+    padding: 5px 15px;
+  }
+  
+  #search {
+
+    padding: 10px 0px;
+    text-align: right;
+    font-size: 11px;
+  }
+  
+  #search form {
+	padding:0;
+	margin:0;
+  }
+  
+  #search .textbox {
+    width: 138px;
+    font: normal 13px/16px Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 3px 15px 2px 15px;
+  }  
+  
+  #edicy {
+    padding: 3px 15px;
+    text-align: right;
+    font-size: 11px;
+  }
+  
+  .size1 { font-size: 10px; }
+  .size2 { font-size: 12px; }
+  .size3 { font-size: 14px; }
+  .size4 { font-size: 16px; }
+  .size5 { font-size: 18px; }
+
+/* news */
+
+  .news {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border: none;
+  }
+  
+  .news td {
+    border: none;
+    vertical-align: top;
+  }
+  
+  .news .first {
+    width: 40px;
+    font-weight: bold;
+  }
+  
+#articlebody {
+  padding-top: 10px;
+}
+#mainmenu a, #submenu a {
+  display: inline-block;
+}
+/* forms */
+
+   .form_area {
+
+      margin: 20px 0;
+
+}
+
+.form_field {
+
+  margin: 0 0 5px;
+
+}
+.form_field label {
+  display: block;
+  font-weight: bold;
+}
+
+.form_error {
+
+  color: #c71414;
+
+  font-weight: bold;
+
+  font-size: 12px;
+
+  border: 1px dotted #c71414;
+
+  padding: 5px;
+
+}
+
+.form_field_error {
+
+  color: #c71414;
+
+  font-size: 10px;
+  line-height: 14px;
+
+}
+
+.form_notice {
+
+  color: #00ff00;
+
+  border: 1px dotted #00ff00;
+
+  padding: 5px;
+
+}
+.form_field_size_large {
+
+width: 100%;
+
+}
+
+.form_field_size_medium {
+
+width: 50%;
+
+}
+.form_field_size_small {
+
+width: 25%;
+
+}
