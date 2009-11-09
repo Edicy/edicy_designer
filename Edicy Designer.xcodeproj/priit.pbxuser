@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 38E695D00FDADE3C00BACB71 /* Edicy Designer */;
+		activeTarget = 8D1107260486CEB800E47090 /* Edicy Designer */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Edicy Designer */,
+		);
+		codeSenseManager = 38E695DF0FDADE4000BACB71 /* Code sense */;
+		executables = (
+			38E695D00FDADE3C00BACB71 /* Edicy Designer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					591,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					551,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 270064911;
+			PBXWorkspaceStateSaveDate = 270064911;
+		};
+		perUserProjectItems = {
+			386BBC8D1018DD6800D863F0 /* PlistBookmark */ = 386BBC8D1018DD6800D863F0 /* PlistBookmark */;
+			38E695E70FDADEC800BACB71 /* PBXBookmark */ = 38E695E70FDADEC800BACB71 /* PBXBookmark */;
+			38E695E90FDADEC800BACB71 /* PlistBookmark */ = 38E695E90FDADEC800BACB71 /* PlistBookmark */;
+			38E695EA0FDADEC800BACB71 /* PBXBookmark */ = 38E695EA0FDADEC800BACB71 /* PBXBookmark */;
+			38E696AD0FDAF5BE00BACB71 /* PBXTextBookmark */ = 38E696AD0FDAF5BE00BACB71 /* PBXTextBookmark */;
+			38E696AE0FDAF5BE00BACB71 /* PBXTextBookmark */ = 38E696AE0FDAF5BE00BACB71 /* PBXTextBookmark */;
+			38E696BA0FDAF5BE00BACB71 /* PBXTextBookmark */ = 38E696BA0FDAF5BE00BACB71 /* PBXTextBookmark */;
+			38E696BB0FDAF5BE00BACB71 /* PBXTextBookmark */ = 38E696BB0FDAF5BE00BACB71 /* PBXTextBookmark */;
+			38E697070FDAFE2D00BACB71 /* PBXTextBookmark */ = 38E697070FDAFE2D00BACB71 /* PBXTextBookmark */;
+			38E697080FDAFE2D00BACB71 /* PBXTextBookmark */ = 38E697080FDAFE2D00BACB71 /* PBXTextBookmark */;
+			38E697580FDB04FD00BACB71 /* PBXTextBookmark */ = 38E697580FDB04FD00BACB71 /* PBXTextBookmark */;
+			38E6976B0FDB053F00BACB71 /* PBXTextBookmark */ = 38E6976B0FDB053F00BACB71 /* PBXTextBookmark */;
+			38E697860FDB087300BACB71 /* PBXTextBookmark */ = 38E697860FDB087300BACB71 /* PBXTextBookmark */;
+			38E697D90FDB109F00BACB71 /* PBXTextBookmark */ = 38E697D90FDB109F00BACB71 /* PBXTextBookmark */;
+			38E697EA0FDB124D00BACB71 /* PBXTextBookmark */ = 38E697EA0FDB124D00BACB71 /* PBXTextBookmark */;
+			38E698110FDB1A0900BACB71 /* PBXTextBookmark */ = 38E698110FDB1A0900BACB71 /* PBXTextBookmark */;
+			38E698B60FDB1D4900BACB71 /* PlistBookmark */ = 38E698B60FDB1D4900BACB71 /* PlistBookmark */;
+		};
+		sourceControlManager = 38E695DE0FDADE4000BACB71 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	386BBC8D1018DD6800D863F0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/priit/Projects/Edicy Designer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	38E695D00FDADE3C00BACB71 /* Edicy Designer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Edicy Designer";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	38E695DE0FDADE4000BACB71 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	38E695DF0FDADE4000BACB71 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	38E695E70FDADEC800BACB71 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 38E695E10FDADE5900BACB71 /* appl.icns */;
+	};
+	38E695E90FDADEC800BACB71 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = "/Users/priit/Projects/Edicy Designer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	38E695EA0FDADEC800BACB71 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 38E695E10FDADE5900BACB71 /* appl.icns */;
+	};
+	38E696010FDADFA700BACB71 /* AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {769, 582}}";
+			sepNavSelRange = "{192, 0}";
+			sepNavVisRange = "{0, 286}";
+		};
+	};
+	38E696020FDADFA700BACB71 /* AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {769, 582}}";
+			sepNavSelRange = "{575, 0}";
+			sepNavVisRange = "{0, 683}";
+		};
+	};
+	38E696340FDAF30200BACB71 /* ConsoleController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {769, 675}}";
+			sepNavSelRange = "{312, 0}";
+			sepNavVisRange = "{91, 1055}";
+		};
+	};
+	38E696350FDAF30200BACB71 /* ConsoleController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1251, 2310}}";
+			sepNavSelRange = "{905, 0}";
+			sepNavVisRange = "{609, 1107}";
+		};
+	};
+	38E696AD0FDAF5BE00BACB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38E696010FDADFA700BACB71 /* AppDelegate.h */;
+		name = "AppDelegate.h: 13";
+		rLen = 0;
+		rLoc = 277;
+		rType = 0;
+		vrLen = 209;
+		vrLoc = 0;
+	};
+	38E696AE0FDAF5BE00BACB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38E696020FDADFA700BACB71 /* AppDelegate.m */;
+		name = "AppDelegate.m: 56";
+		rLen = 0;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 844;
+		vrLoc = 573;
+	};
+	38E696BA0FDAF5BE00BACB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38E696340FDAF30200BACB71 /* ConsoleController.h */;
+		name = "ConsoleController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 231;
+		vrLoc = 0;
+	};
+	38E696BB0FDAF5BE00BACB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38E696350FDAF30200BACB71 /* ConsoleController.m */;
+		name = "ConsoleController.m: 13";
+		rLen = 0;
+		rLoc = 3952;
+		rType = 0;
+		vrLen = 216;
+		vrLoc = 0;
+	};
+	38E696F80FDAFA1700BACB71 /* AMShellWrapper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1622, 1425}}";
+			sepNavSelRange = "{3433, 0}";
+			sepNavVisRange = "{1825, 1668}";
+		};
+	};
+	38E696F90FDAFA1700BACB71 /* AMShellWrapper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1573, 5145}}";
+			sepNavSelRange = "{5002, 0}";
+			sepNavVisRange = "{4542, 1916}";
+		};
+	};
+	38E697070FDAFE2D00BACB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38E696F80FDAFA1700BACB71 /* AMShellWrapper.h */;
+		name = "AMShellWrapper.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 912;
+		vrLoc = 0;
+	};
+	38E697080FDAFE2D00BACB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38E696F90FDAFA1700BACB71 /* AMShellWrapper.m */;
+		name = "AMShellWrapper.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1256;
+		vrLoc = 0;
+	};
+	38E697580FDB04FD00BACB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38E696010FDADFA700BACB71 /* AppDelegate.h */;
+		name = "AppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 286;
+		vrLoc = 0;
+	};
+	38E6976B0FDB053F00BACB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38E696020FDADFA700BACB71 /* AppDelegate.m */;
+		name = "AppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 575;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 0;
+	};
+	38E697860FDB087300BACB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38E696F80FDAFA1700BACB71 /* AMShellWrapper.h */;
+		name = "AMShellWrapper.h: 88";
+		rLen = 0;
+		rLoc = 3433;
+		rType = 0;
+		vrLen = 1668;
+		vrLoc = 1825;
+	};
+	38E697D90FDB109F00BACB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38E696340FDAF30200BACB71 /* ConsoleController.h */;
+		name = "ConsoleController.h: 14";
+		rLen = 0;
+		rLoc = 312;
+		rType = 0;
+		vrLen = 1055;
+		vrLoc = 91;
+	};
+	38E697EA0FDB124D00BACB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38E696F90FDAFA1700BACB71 /* AMShellWrapper.m */;
+		name = "AMShellWrapper.m: 158";
+		rLen = 0;
+		rLoc = 5002;
+		rType = 0;
+		vrLen = 1916;
+		vrLoc = 4542;
+	};
+	38E698110FDB1A0900BACB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38E696350FDAF30200BACB71 /* ConsoleController.m */;
+		name = "ConsoleController.m: 50";
+		rLen = 0;
+		rLoc = 905;
+		rType = 0;
+		vrLen = 1107;
+		vrLoc = 609;
+	};
+	38E698B60FDB1D4900BACB71 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/priit/Projects/Edicy Designer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	8D1107260486CEB800E47090 /* Edicy Designer */ = {
+		activeExec = 0;
+		executables = (
+			38E695D00FDADE3C00BACB71 /* Edicy Designer */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 165}, {871, 608}}";
+		};
+	};
+}
